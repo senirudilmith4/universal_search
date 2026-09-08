@@ -4,7 +4,7 @@ from datetime import datetime
 from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.orm import Mapped , mapped_column , relationship
 from sqlalchemy.sql import func
-from db.database import Base
+from app.db.database import Base
 
 # mapped_column is used to define the columns in the database tables for sqlalchemy ORM models.
 # Mapped is used to specify the type of the column for python type checking and autocompletion
